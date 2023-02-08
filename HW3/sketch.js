@@ -7,8 +7,8 @@ let walkingAnimationRepeat;
 
 // loads pictures before coding starts
 function preload() {
-  spriteSheet = loadImage("assets/SpelunkyPurple.png");
-  spriteSheet2 = loadImage("assets/SpelunkyMonk.png");
+  spriteSheet = loadImage("/assets/SpelunkyPurple.png");
+  spriteSheet2 = loadImage("/assets/SpelunkyMonk.png");
 }
 
 function setup() {
