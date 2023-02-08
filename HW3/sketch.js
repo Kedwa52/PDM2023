@@ -92,7 +92,7 @@ class WalkingAnimation {
   keyReleased(right,left) {
     if (keyCode === right || keyCode === left) {
       this.moving = 0;
-      
+        
     }
   }
 }
