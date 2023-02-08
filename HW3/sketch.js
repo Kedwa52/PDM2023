@@ -1,5 +1,6 @@
 let spriteSheet;
 let spriteSheet2;
+let spritsheet = (spriteSheet,spriteSheet2);
 
 let walkingAnimation;
 let walkingAnimation2;
