@@ -10,7 +10,7 @@ let walkingAnimationRepeat;
 function preload() {
   spriteSheet = loadImage("assets/SpelunkyPurple.png");
   spriteSheet2 = loadImage("assets/SpelunkyMonk.png");
-  spritesheet;
+  spritesheet= (loadImage("assets/SpelunkyPurple.png"), loadImage("assets/SpelunkyMonk.png"))
 }
 
 function setup() {
