@@ -34,11 +34,13 @@ function draw() {
 function keyPressed() {
   walkingAnimation.keyPressed(RIGHT_ARROW,LEFT_ARROW);
   walkingAnimation2.keyPressed(RIGHT_ARROW, LEFT_ARROW);
+  walkingAnimationRepeat.keyPressed(RIGHT_ARROW,LEFT_ARROW);
 }
 
 function keyReleased() {
   walkingAnimation.keyReleased(RIGHT_ARROW,LEFT_ARROW);
   walkingAnimation2.keyReleased(RIGHT_ARROW,LEFT_ARROW);
+  walkingAnimationRepeat.keyReleased(RIGHT_ARROW,LEFT_ARROW);
 }
 
 //creating classes to group amimation movement together
